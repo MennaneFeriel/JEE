@@ -44,7 +44,7 @@ public class MetierImplementationEJB implements MetierImplementationEJBRemote, M
 
 		System.out.println("helloWord");
 		int  a = 2*3;
-		int c =5;
+		String ="Jesuisun changement";
 		System.out.println("helloWord yesssssss");
 	}
 
