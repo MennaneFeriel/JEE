@@ -41,8 +41,11 @@ public class MetierImplementationEJB implements MetierImplementationEJBRemote, M
 	public MetierImplementationEJB() {
 		// TODO Auto-generated constructor stub
 		// some changes
-		int c ;
+
 		System.out.println("helloWord");
+		int  a = 2*3;
+		int c =5;
+		System.out.println("helloWord yesssssss");
 	}
 
 	public String generate(int length) {
