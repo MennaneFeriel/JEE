@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="SchoolMangements_new_project"
+	transaction-type="JTA">
+		<jta-data-source>java:/MySchool</jta-data-source>
+		<class>com.school.management.entities.Membre</class>
+		<class>com.school.management.entities.Directeur</class>
+		<class>com.school.management.entities.Enseignant</class>
+		<class>com.school.management.entities.Eleve</class>
+		<class>com.school.management.entities.Salle</class>
+		<class>com.school.management.entities.Etage</class>
+		<class>com.school.management.entities.Batiment</class>
+		<class>com.school.management.entities.Seance</class>
+		<class>com.school.management.entities.ParentEleve</class>
+		<class>com.school.management.entities.AnneeScolaire</class>
+		<class>com.school.management.entities.Cycle</class>
+		<class>com.school.management.entities.Section</class>
+		<class>com.school.management.entities.NiveauEtude</class>
+		<class>com.school.management.entities.Matiere</class>
+		<class>com.school.management.entities.SupportCours</class>
+		<class>com.school.management.entities.Evaluation</class>
+		<class>com.school.management.entities.Message</class>
+		<class>com.school.management.entities.EDT</class>
+		<class>com.school.management.entities.Classe</class>
+		<class>com.school.management.entities.ListePresence</class>
+		<class>com.school.management.entities.ResetPasswordToken</class>
+		<properties>
+			<property name="javax.persistence.schema-generation.database.action"
+				value="drop-and-create" />
+		</properties>
+	</persistence-unit>
+</persistence>

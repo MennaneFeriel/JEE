@@ -17,6 +17,7 @@ public class AnneeScolaire implements Serializable {
 
 	   
 	@Id
+	private int iddd;
 	private long idAnneeScolaire;
 	private String nomAnneeScolaire;
 	private Date dateCreation;
