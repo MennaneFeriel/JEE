@@ -43,7 +43,7 @@ public class MetierImplementationEJB implements MetierImplementationEJBRemote, M
 		// some changes
 		int  a = 2*3;
 		int c =5;
-		System.out.println("helloWord");
+		System.out.println("helloWord yesssssss");
 	}
 
 	public String generate(int length) {
